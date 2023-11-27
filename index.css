@@ -1,0 +1,63 @@
+:root {
+    --main-color: linear-gradient(25deg, #F4CE14, #F4CE14);
+}
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    min-width: 400px;
+    background: #F5F7F8;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #F4CE14;
+    margin-bottom: 4px;
+    border-radius: 4px;
+}
+
+button {
+    background: var(--main-color);
+    color: #45474B;
+    padding: 10px 20px;
+    border: 1px solid #F4CE14;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #495E57;
+    color: #F4CE14;
+}
+
+#delete-btn {
+    background: linear-gradient(25deg, #495E57,  grey);
+    color:white;
+    border-color: #495E57;
+}
+
+#delete-btn:hover {
+    background: #495E57;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #008170;
+}
+
+
